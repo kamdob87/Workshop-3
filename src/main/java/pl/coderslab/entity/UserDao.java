@@ -90,7 +90,7 @@ public class UserDao {
                 user.setEmail(rs.getString("email"));
                 user.setUserName(rs.getString("username"));
                 user.setPassword(rs.getString("password"));
-                return addToArray(user, users);
+                users = addToArray(user, users);
             }
         } catch (SQLException e) {
             e.printStackTrace();
