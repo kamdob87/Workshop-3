@@ -34,7 +34,7 @@
                             <td>${user.email}</td>
                             <td>
                                 <a href='<c:url value="#" />'>Usuń</a>
-                                <a href='<c:url value="#" />'>Edit</a>
+                                <a href='<c:url value="/user/edit?id=${user.id}" />'>Edit</a>
                                 <a href='<c:url value="#" />'>Pokaż</a>
                             </td>
                         </tr>
