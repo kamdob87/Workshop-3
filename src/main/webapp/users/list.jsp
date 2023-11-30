@@ -33,7 +33,7 @@
                             <td>${user.userName}</td>
                             <td>${user.email}</td>
                             <td>
-                                <a href='<c:url value="#" />'>Usuń</a>
+                                <a href='<c:url value="/user/delete?id=${user.id}" />'>Usuń</a>
                                 <a href='<c:url value="/user/edit?id=${user.id}" />'>Edit</a>
                                 <a href='<c:url value="/user/show?id=${user.id}" />'>Pokaż</a>
                             </td>
